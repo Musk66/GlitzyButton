@@ -13,6 +13,10 @@
 		19E92B7A1DB880A2006E69E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E92B781DB880A2006E69E0 /* Main.storyboard */; };
 		19E92B7C1DB880A2006E69E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E92B7B1DB880A2006E69E0 /* Assets.xcassets */; };
 		19E92B7F1DB880A2006E69E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E92B7D1DB880A2006E69E0 /* LaunchScreen.storyboard */; };
+		19E92B881DB880CB006E69E0 /* GlitzyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E92B871DB880CB006E69E0 /* GlitzyButton.m */; };
+		19E92B8B1DB88163006E69E0 /* RotaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E92B8A1DB88163006E69E0 /* RotaryView.m */; };
+		19E92B8E1DB8A5A3006E69E0 /* 微博logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19E92B8C1DB8A5A3006E69E0 /* 微博logo@2x.png */; };
+		19E92B8F1DB8A5A3006E69E0 /* 微信logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19E92B8D1DB8A5A3006E69E0 /* 微信logo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		19E92B7B1DB880A2006E69E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19E92B7E1DB880A2006E69E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19E92B801DB880A2006E69E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E92B861DB880CB006E69E0 /* GlitzyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlitzyButton.h; sourceTree = "<group>"; };
+		19E92B871DB880CB006E69E0 /* GlitzyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlitzyButton.m; sourceTree = "<group>"; };
+		19E92B891DB88163006E69E0 /* RotaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotaryView.h; sourceTree = "<group>"; };
+		19E92B8A1DB88163006E69E0 /* RotaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotaryView.m; sourceTree = "<group>"; };
+		19E92B8C1DB8A5A3006E69E0 /* 微博logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微博logo@2x.png"; sourceTree = "<group>"; };
+		19E92B8D1DB8A5A3006E69E0 /* 微信logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信logo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +68,16 @@
 		19E92B6E1DB880A2006E69E0 /* GlitzyButton */ = {
 			isa = PBXGroup;
 			children = (
+				19E92B8C1DB8A5A3006E69E0 /* 微博logo@2x.png */,
+				19E92B8D1DB8A5A3006E69E0 /* 微信logo@2x.png */,
 				19E92B721DB880A2006E69E0 /* AppDelegate.h */,
 				19E92B731DB880A2006E69E0 /* AppDelegate.m */,
 				19E92B751DB880A2006E69E0 /* ViewController.h */,
 				19E92B761DB880A2006E69E0 /* ViewController.m */,
+				19E92B861DB880CB006E69E0 /* GlitzyButton.h */,
+				19E92B871DB880CB006E69E0 /* GlitzyButton.m */,
+				19E92B891DB88163006E69E0 /* RotaryView.h */,
+				19E92B8A1DB88163006E69E0 /* RotaryView.m */,
 				19E92B781DB880A2006E69E0 /* Main.storyboard */,
 				19E92B7B1DB880A2006E69E0 /* Assets.xcassets */,
 				19E92B7D1DB880A2006E69E0 /* LaunchScreen.storyboard */,
@@ -139,6 +155,8 @@
 				19E92B7F1DB880A2006E69E0 /* LaunchScreen.storyboard in Resources */,
 				19E92B7C1DB880A2006E69E0 /* Assets.xcassets in Resources */,
 				19E92B7A1DB880A2006E69E0 /* Main.storyboard in Resources */,
+				19E92B8E1DB8A5A3006E69E0 /* 微博logo@2x.png in Resources */,
+				19E92B8F1DB8A5A3006E69E0 /* 微信logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E92B881DB880CB006E69E0 /* GlitzyButton.m in Sources */,
+				19E92B8B1DB88163006E69E0 /* RotaryView.m in Sources */,
 				19E92B771DB880A2006E69E0 /* ViewController.m in Sources */,
 				19E92B741DB880A2006E69E0 /* AppDelegate.m in Sources */,
 				19E92B711DB880A2006E69E0 /* main.m in Sources */,
@@ -265,7 +285,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GlitzyButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tqsoft.GlitzyButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,7 +300,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GlitzyButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tqsoft.GlitzyButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +330,7 @@
 				19E92B851DB880A2006E69E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
